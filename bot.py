@@ -53,7 +53,7 @@ def main():
     updater.start_webhook(listen='0.0.0.0',
                             port=int(PORT),
                             url_path=TOKEN)
-    updater.setWebhook('https://git.heroku.com/sitechekk.git' + TOKEN)
+    updater.setWebhook('https://git.heroku.com/chatterx.git' + TOKEN)
 
     updater.idle()
 
